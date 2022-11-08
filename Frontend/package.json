@@ -1,0 +1,37 @@
+{
+  "name": "bachelor_frontend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.dev.js --mode development",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Mariyan Stamenov",
+    "email": "mariyanstamenov@gmail.com",
+    "url": "https://www.linkedin.com/in/mariyan-stamenov/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "decimal.js": "^10.3.1",
+    "three": "^0.137.5",
+    "three-gltf-loader": "^1.111.0",
+    "three-orbitcontrols": "^2.110.3",
+    "three.meshline": "^1.4.0",
+    "uuid": "^8.3.2"
+  }
+}

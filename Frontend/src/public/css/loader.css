@@ -1,0 +1,62 @@
+#status {
+  width: 250px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: rgba(205, 205, 205, 0.8);
+  position: fixed !important;
+  z-index: 10001;
+  top: 5px;
+  right: 5px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center;
+}
+
+#status #selectedElement {
+  width: 100%;
+  height: auto;
+}
+
+#status hr {
+  width: 94%;
+}
+
+#selectedElement p {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+#selectedElement p .color {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+#selectedElement p .color div {
+  margin-left: 5px;
+  width: 70px;
+  height: 10px;
+}
+
+#status p {
+  width: 80%;
+  margin: 5px 0px;
+  padding-left: 10%;
+  text-align: left;
+  font-style: italic;
+  cursor: help;
+}
+
+#status input {
+  width: 80%;
+  margin-left: 10%;
+  height: 30px;
+  margin-top: 5px;
+}
